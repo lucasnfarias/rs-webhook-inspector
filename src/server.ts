@@ -38,7 +38,6 @@ app.register(ScalarApiReference, {
 
 app.register(listWebhooks)
 
-
 app
   .listen({
     port: env.PORT,
