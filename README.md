@@ -22,7 +22,8 @@ A workspace containing a Fastify-based API and a Vite + React frontend used for 
 - [React](https://react.dev/)
 - TanStack Router
 - TailwindCSS
--
+- Shiki
+- RadixUI
 
 
 
