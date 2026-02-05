@@ -4,7 +4,6 @@ import { desc, lt } from 'drizzle-orm'
 import { createSelectSchema } from 'drizzle-zod'
 import { FastifyPluginAsyncZod } from 'fastify-type-provider-zod'
 import { z } from 'zod'
-import id from 'zod/v4/locales/id.js'
 
 export const listWebhooks: FastifyPluginAsyncZod = async (app) => {
   app.get(
