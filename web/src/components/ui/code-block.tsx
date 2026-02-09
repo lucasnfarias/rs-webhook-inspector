@@ -32,8 +32,9 @@ export function CodeBlock({
       {...props}
     >
       <div
-        className='[&_pre]:p-4 [&_pre]:text-sm [&_pre]:font-mono [&_pre]:leading-relaxed'
-        dangerouslySetInnerHTML={{ __html: parsedCode }} />
+        className="[&_pre]:p-4 [&_pre]:text-sm [&_pre]:font-mono [&_pre]:leading-relaxed"
+        dangerouslySetInnerHTML={{ __html: parsedCode }}
+      />
     </div>
   )
 }
