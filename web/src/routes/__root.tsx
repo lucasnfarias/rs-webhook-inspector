@@ -10,19 +10,19 @@ const RootLayout = () => (
   <QueryClientProvider client={queryClient}>
     <div className="h-screen bg-zinc-900">
       <PanelGroup direction="horizontal">
-        <Panel defaultSize={40} minSize={15} maxSize={40}>
+        <Panel defaultSize={20} minSize={15} maxSize={50}>
           <Sidebar />
         </Panel>
 
         <PanelResizeHandle className="w-px bg-zinc-700 hover:bg-zinc-600 transition-colors duration-150" />
 
-        <Panel defaultSize={20} minSize={80}>
+        <Panel defaultSize={80} minSize={40}>
           <Outlet />
         </Panel>
       </PanelGroup>
     </div>
 
-    <TanStackRouterDevtools />
+    <TanStackRouterDevtools position="bottom-right" />
   </QueryClientProvider>
 )
 

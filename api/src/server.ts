@@ -12,6 +12,7 @@ import { env } from '@/env'
 import { getWebhook } from '@/routes/get-webhook'
 import { deleteWebhook } from '@/routes/delete-webhook'
 import { captureWebhook } from '@/routes/capture-webhook'
+import { generateHandler } from '@/routes/generate-handler'
 
 const app = fastify()
 
@@ -43,6 +44,7 @@ app.register(getWebhook)
 app.register(deleteWebhook)
 app.register(listWebhooks)
 app.register(captureWebhook)
+app.register(generateHandler)
 
 app
   .listen({

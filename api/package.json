@@ -25,10 +25,12 @@
     "typescript": "~5.9.3"
   },
   "dependencies": {
+    "@ai-sdk/google": "^3.0.23",
     "@faker-js/faker": "^10.2.0",
     "@fastify/cors": "^11.2.0",
     "@fastify/swagger": "^9.6.1",
     "@scalar/fastify-api-reference": "^1.43.9",
+    "ai": "^6.0.78",
     "drizzle-orm": "^0.45.1",
     "drizzle-zod": "^0.8.3",
     "fastify": "^5.7.1",
